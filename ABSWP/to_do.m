@@ -4,7 +4,12 @@ He leído hasta **Cap. 6 (Listas)**, pero me faltan algunos temas.
 Acá está la guía con páginas y secciones para repasar:
 
 ---
-Llegué hasta la página 98 del cap 5, luego tengo que continuar con el cap 6 de listas.
-Tengo que ver Assertions
+    Tengo que hacer los ejemplos marcados en el Kindle del cap 6 y luego seguir
+
+
+# Al finalizar el libro (o cuando empiece la parte de proyectos, para practicar)
+    Tomar todas las preguntas, intentar responderlas y meterlas en el anki.
+
+
 ---
 
