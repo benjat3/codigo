@@ -46,19 +46,42 @@ def isValidChessboard(board):
                   'colors': False,  # Names begin with w or b
                   'name': False     # Names continue with 'P','N','B','R','Q','K'
                   }
+    # Initialize counter kings:
+    bkings = 0
+    wkings = 0
+    # Initialize counter for pieces:
+    bpieces = 0
+    wpieces = 0
+    # Initialize counter for pawns:
+    wpawns = 0
+    bpawns = 0
+
+    # For loop to check every thing in the board
     for square, piece in board.items():
         # Count kings
-        bkings = 0
-        wkings = 0
-        if piece == bK:
+        if piece == 'bK':
             bkings += 1
-        elif piece == wK:
-            wkings += 1
+        elif piece == 'wK':
+            wkings += 1i
+        # Count pieces
+        if piece[0] == 'b':
+            bpieces += 1
+        elif piece[0] == 'w':
+            wpieces += 1
+        # Count pawns
+        if piece[0] == 'bP':
+
+
     # Check kings
     if bkings == 1 and wkings == 1:
-        validation[kings] = True
+        validation['kings'] = True
     else: 
-        print('There are too many kings')
+        print('There is an incorrect number of kings')
+    # Check 16 pieces
+    if bpieces == 16 and wpieces == 16:
+        validation['number'] = True
+    else:
+        print('There are too many pieces')
         
 
 

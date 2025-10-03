@@ -1,0 +1,4 @@
+count: 21951
+alpha mean: 135.0
+beta mean: 40.0
+size mean (bytes): 44771
