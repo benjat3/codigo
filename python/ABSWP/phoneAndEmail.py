@@ -1,5 +1,6 @@
 import pyperclip, re
 
+
 phone_re = re.compile (r'''(
                     (\d{3}|\(d{3}\))? #Area code
                     (\s|-|\.)? #Separator
