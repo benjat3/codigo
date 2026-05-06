@@ -1,0 +1,3 @@
+Sensor_A: 25.5C
+Sensor_B: 80.0C (PELIGRO)
+Sensor_C: 22.1C
