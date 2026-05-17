@@ -1,0 +1,3 @@
+ID: 001 - Estado: OK
+ID: 002 - Estado: ERROR_CALOR
+ID: 003 - Alerta: Vibración alta
